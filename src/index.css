@@ -1,3 +1,25 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+
+.button-agregar{
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(12, 99, 9);
+    color: white;
+    box-shadow: 0 9px #999;   
+}
+.button-agregar:hover{
+    background-color: #3e8e41;
+}
+.button-agregar:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.button-limpiar{
+
+}
